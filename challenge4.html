@@ -23,9 +23,16 @@
         margin-bottom:25px;
         font-size:150%;
     }
+
+    .image-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .preview{
         width:10%;
-        margin-left:17%;
+        margin-left:1%;
         border: 10px solid black;
     }
     img{
@@ -75,11 +82,11 @@
         <div id = "image">
             Hover or tab over/into an image below.
         </div>
-
+        <div class = "image_container">
         <!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
         <img class = "preview" 
-            alt = "Styling with a Bandana" 
-            src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+            alt = "Tree #1" 
+            src = "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg"
             onmouseover = "upDate(this)"; 
             onmouseleave = "unDo()";
             onfocus= "upDate(this)";
@@ -90,8 +97,8 @@
 
         <!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->  
         <img class = "preview" 
-            alt = "With My Boy" 
-            src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+            alt = "Tree #2" 
+            src = "https://upload.wikimedia.org/wikipedia/commons/1/1a/%C3%81rbol_de_Guancaste.jpg"
             onmouseover = "upDate(this)"; 
             onmouseleave = "unDo()";
             onfocus= "upDate(this)";
@@ -101,14 +108,49 @@
     
         <!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
         <img class = "preview" tabindex = "1" 
-            src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
-            alt = "Young Puppy"
+            src = "https://inhabitat.com/wp-content/blogs.dir/1/files/2005/11/Fernwood-Tree.jpg" 
+            alt = "Tree #3"
             onmouseover = "upDate(this)"; 
             onmouseleave = "unDo()";
             onfocus= "upDate(this)";
             onblur = "unDo()";
             tabindex="0";
             >
+
+        <!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
+        <img class = "preview" tabindex = "1" 
+            src = "https://www.austinmonitor.com/wp-content/uploads/2017/01/Oak_tree_near_Kersoe_-_geograph.org_.uk_-_851570.jpg" 
+            alt = "Tree #4"
+            onmouseover = "upDate(this)"; 
+            onmouseleave = "unDo()";
+            onfocus= "upDate(this)";
+            onblur = "unDo()";
+            tabindex="0";
+            >
+
+        <!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
+        <img class = "preview" tabindex = "1" 
+            src = "https://upload.wikimedia.org/wikipedia/commons/f/fe/Tree_at_Golf_Course.JPG" 
+            alt = "Tree #5"
+            onmouseover = "upDate(this)"; 
+            onmouseleave = "unDo()";
+            onfocus= "upDate(this)";
+            onblur = "unDo()";
+            tabindex="0";
+            >
+
+        <!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
+        <img class = "preview" tabindex = "1" 
+            src = "http://thorpetrees.com/wp-content/uploads/2013/11/oak-tree11.jpg" 
+            alt = "Tree #6"
+            onmouseover = "upDate(this)"; 
+            onmouseleave = "unDo()";
+            onfocus= "upDate(this)";
+            onblur = "unDo()";
+            tabindex="0";
+            >
+
+        </div>
 </body>
 </html>
     
